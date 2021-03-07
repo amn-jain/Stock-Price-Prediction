@@ -16,10 +16,12 @@ This project utilizes ARIMA models to estimate base RMSE errors and then used De
 #### Histogram plot of Percentage Daily Return 
 <img src='images/Daily_Returns.png'>
 <br><br>
-####  Correlation between the stocks daily returns
+
+#### Correlation between the stocks daily returns
 <img src='images/Correlation_Plot.png'>
 From the above plot, we can see that Microsoft and Google had the strongest correlation in stocks daily returns.
 <br><br>
+
 #### Risk v/s Expected Returns
 <img src='images/Risk_vs_Expected_Returns.png'>
 From the above graph, we can see that Tesla has the highest expected returns and the highest risk factor. Google has the lowest expected returns and the lowest risk factor.
