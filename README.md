@@ -7,6 +7,17 @@ Can we actually predict stock prices with machine learning? Investors make educa
 
 This project utilizes ARIMA models to estimate base RMSE errors and then used Deep Learning-Based models to improve the predictions.
 
+## Results
+
+| ARIMA Model | Deep Learning Model 
+| ----------- | -------------------
+Apple | 6.40 | 4.82
+Tesla | 108.11 | 66.40
+Google | 210.40 | 115.66
+Microsoft | 7.26 | 6.23
+Amazon | 113.18 | 87.48
+
+
 ## References
 1. Mehtab, S., & Sen, J. (2019). A Robust Predictive Model for Stock Price Prediction Using Deep Learning and Natural Language Processing. SSRN Electronic Journal, 1–18. https://doi.org/10.2139/ssrn.3502624
 2. Chauhan, N. S. (2020, January). Stock Market Forecasting Using Time Series Analysis. KDnuggets. https://www.kdnuggets.com/2020/01/stock-market-forecasting-time-series-analysis.html
