@@ -9,13 +9,13 @@ This project utilizes ARIMA models to estimate base RMSE errors and then used De
 
 ## Results
 
-| ARIMA Model (RMSE) | Deep Learning Model (RMSE) 
- ---- | ----------- | -------------------
-Apple | 6.40 | 4.82
-Tesla | 108.11 | 66.40
-Google | 210.40 | 115.66
-Microsoft | 7.26 | 6.23
-Amazon | 113.18 | 87.48
+|           | ARIMA Model (RMSE) | Deep Learning Model (RMSE) | 
+| --------- | ------------------ | -------------------------- |
+| Apple     | 6.40               | 4.82                       |
+| Tesla     | 108.11             | 66.40                      |
+| Google    | 210.40             | 115.66                     |
+| Microsoft | 7.26               | 6.23                       |
+| Amazon    | 113.18             | 87.48                      |
 
 
 ## References
