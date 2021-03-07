@@ -11,24 +11,25 @@ This project utilizes ARIMA models to estimate base RMSE errors and then used De
 
 #### Closing Price v/s Time
 <img src='images/Moving_Average.png'>
-<br><br>
+<br>
 
 #### Histogram plot of Percentage Daily Return 
 <img src='images/Daily_Returns.png'>
-<br><br>
+<br>
 
 #### Correlation between the stocks daily returns
 <img src='images/Correlation_Plot.png'>
 From the above plot, we can see that Microsoft and Google had the strongest correlation in stocks daily returns.
-<br><br>
+<br>
 
 #### Risk v/s Expected Returns
 <img src='images/Risk_vs_Expected_Returns.png'>
 From the above graph, we can see that Tesla has the highest expected returns and the highest risk factor. Google has the lowest expected returns and the lowest risk factor.
+<br>
 
 ## Deep Learning Model
 <img src='images/model.png'>
-
+<br>
 
 ## Results
 
@@ -40,6 +41,7 @@ From the above graph, we can see that Tesla has the highest expected returns and
 | Microsoft | 7.26               | 6.23                       |
 | Amazon    | 113.18             | 87.48                      |
 
+<br>
 
 ## References
 1. Mehtab, S., & Sen, J. (2019). A Robust Predictive Model for Stock Price Prediction Using Deep Learning and Natural Language Processing. SSRN Electronic Journal, 1–18. https://doi.org/10.2139/ssrn.3502624
