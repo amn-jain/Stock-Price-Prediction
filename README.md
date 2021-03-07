@@ -5,7 +5,7 @@ Investment firms, hedge funds and even individuals have been using financial mod
 
 Can we actually predict stock prices with machine learning? Investors make educated guesses by analyzing data. They'll read the news, study the company history, industry trends and other lots of data points that go into making a prediction. The prevailing theories is that stock prices are totally random and unpredictable but that raises the question why top firms like Morgan Stanley and Citigroup hire quantitative analysts to build predictive models. We have this idea of a trading floor being filled with adrenaline infuse men with loose ties running around yelling something into a phone but these days they're more likely to see rows of machine learning experts quietly sitting in front of computer screens. In fact about 70% of all orders on Wall Street are now placed by software, we're now living in the age of the algorithm.
 
-This project utilizes ARIMA models to estimate base RMSE errors and then used Deep Learning-Based models to improve the predictions.
+This project utilizes ARIMA model for base predictions and then bulit a Deep Learning model to improve it further. Stock price predictions are made for Tech Giants like Apple, Google, Tesla, Microsoft and Amazon.
 <br>
 
 ## Dataset
