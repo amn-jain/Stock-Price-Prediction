@@ -7,6 +7,9 @@ Can we actually predict stock prices with machine learning? Investors make educa
 
 This project utilizes ARIMA models to estimate base RMSE errors and then used Deep Learning-Based models to improve the predictions.
 
+## Exploratory Data Analysis
+![Alt text](images/Moving_Average.png)
+
 ## Results
 
 |           | ARIMA Model (RMSE) | Deep Learning Model (RMSE) | 
