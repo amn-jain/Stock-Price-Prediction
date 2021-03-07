@@ -9,7 +9,7 @@ This project utilizes ARIMA models to estimate base RMSE errors and then used De
 <br>
 
 ## Dataset
-Webscraped https //in.finance.yahoo.com using selenium and BeautifulSoup.
+Webscraped https://in.finance.yahoo.com using selenium and BeautifulSoup.
 <br>
 
 ## Exploratory Data Analysis
