@@ -26,6 +26,10 @@ From the above plot, we can see that Microsoft and Google had the strongest corr
 <img src='images/Risk_vs_Expected_Returns.png'>
 From the above graph, we can see that Tesla has the highest expected returns and the highest risk factor. Google has the lowest expected returns and the lowest risk factor.
 
+## Deep Learning Model
+<img src='images/model.png'>
+
+
 ## Results
 
 |           | ARIMA Model (RMSE) | Deep Learning Model (RMSE) | 
