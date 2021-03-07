@@ -8,8 +8,15 @@ Can we actually predict stock prices with machine learning? Investors make educa
 This project utilizes ARIMA models to estimate base RMSE errors and then used Deep Learning-Based models to improve the predictions.
 
 ## Exploratory Data Analysis
-<img src="https://github.com/amanjain252002/Stock-Price-Prediction/blob/1c88ce93e746a306dd4537adf3ef1954656fcbe6/images/Moving_Average.png" width="900">
-<img src="images/Daily_Returns.png" wigth="900">
+<img src='images/Moving_Average.png>
+
+<img src='images/Daily_Returns.png'>
+
+<img src='images/Correlation_Plot.png'>
+From the above plot, we can see that Microsoft and Google had the strongest correlation in stocks daily returns.
+
+<img src='images/Risk_vs_Expected_Returns.png'>
+From the above graph, we can see that Tesla has the highest expected returns and the highest risk factor. Google has the lowest expected returns and the lowest risk factor.
 
 ## Results
 
