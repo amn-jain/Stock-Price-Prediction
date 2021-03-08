@@ -17,10 +17,13 @@ Webscraped https://in.finance.yahoo.com using selenium and BeautifulSoup.
 #### Closing Price v/s Time
 <img src='images/Moving_Average.png'>
 We can see from the above graph that Telsa shares have tremendous growth in the 2020-2021 period.
+<br>
 If we follow the news, it can be due to
+
 1. Emission Credit Sales
 2. Tesla entering the Fast-Growing Compact SUV Market
 3. Starting production in China
+
 For the rest of the Companies, we can see that COVID-19 is the primary factor affecting the 2020-2021 period.
 <br>
 
