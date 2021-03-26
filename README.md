@@ -1,7 +1,6 @@
 # Stock Price Prediction
 <br>
 <img src='images/Stock-Price-Prediction.jpg' width = '100%' height='350px'>
-<br>
 
 ## Project Overview
 
@@ -11,14 +10,11 @@ Can we predict stock prices with machine learning? Investors make educated guess
 
 This project utilizes the ARIMA model for base predictions and then built a Deep Learning model to improve it further. Stock prices are predicted for Tech Giants like Apple, Google, Tesla, Microsoft and Amazon.
 
-<br>
 
 ## Dataset
 Webscraped https://in.finance.yahoo.com using selenium and BeautifulSoup.
-<br>
 
 ## Exploratory Data Analysis
-<br>
 
 ### Closing Price v/s Time
 <br>
