@@ -1,6 +1,6 @@
 # Stock Price Prediction
 <br>
-<img src='images/Stock-Price-Prediction.jpg' width = '100%' height='500px'>
+<img src='images/Stock-Price-Prediction.jpg' width = '100%' height='350px'>
 <br>
 <br>
 
