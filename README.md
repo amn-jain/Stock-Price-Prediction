@@ -34,24 +34,20 @@ For the rest of the Companies, we can see that COVID-19 is the primary factor af
 ### Histogram plot of Percentage Daily Return 
 <br>
 <img src='images/Daily_Returns.png'>
-<br>
 
 ### Correlation between the stocks daily returns
 <br>
 <img src='images/Correlation_Plot.png'>
 <br>
 From the above plot, we can see that Microsoft and Google had the strongest correlation in stocks daily returns.
-<br>
 
 ### Risk v/s Expected Returns
 <br>
 <img src='images/Risk_vs_Expected_Returns.png'>
 <br>
 From the above graph, we can see that Tesla has the highest expected returns and the highest risk factor. Google has the lowest expected returns and the lowest risk factor.
-<br>
 
 ## Deep Learning Model
-<br>
 
 ### Model
 <br>
@@ -61,12 +57,10 @@ We train the model using the training dataset records and then use it to forecas
 The details of the design of each layer and the overall architecture of the model are as follows :
 <br>
 The input data’s shape to the network’s input layer is (5, 1), indicating that the previous five values (i.e., one week’s data) of the time series are used as the input. Only one attribute of the data (i.e., the closing value) is considered. The input layer passes the data onto the LSTM layer with 200 nodes at the output, with the Leaky ReLU activation function is used in these nodes. The LSTM layer’s output is passed to another LSTM layer with 200 nodes at the output, with the Leaky ReLU as an activation function. This layer’s output is then passed onto a dense layer with 200 nodes at its input and output, with Leaky ReLU activation. This layer’s output is passed onto another dense layer with 200 nodes at its input and 100 nodes with a Leaky ReLU activation function at the output. This layer’s output is passed onto another dense layer with 100 nodes at its input and 50 nodes with a Leaky ReLU activation function at the output. The dense layer is finally connected to the output layer that is also fully-connected. The output layer has 50 nodes at its input and 5 nodes at the output. The 5 nodes at the output produce the forecasted values for the five days of the following week. Again the output layer uses Leaky ReLU as an activation function. The model uses MSE as the loss function and ADAM as the optimizer with a custom learning rate. 
-<br>
 
 ### Custom Learning Rate 
 <br>
 <img src='images/Learning_Rate.png'>
-<br>
 
 ## Results
 <br>
@@ -78,8 +72,6 @@ The input data’s shape to the network’s input layer is (5, 1), indicating th
 | Google    | 210.40             | 115.66                     |
 | Microsoft | 7.26               | 6.23                       |
 | Amazon    | 113.18             | 87.48                      |
-
-<br>
 
 ## References
 1. Mehtab, S. (2020, September 20). Stock Price Prediction Using Machine Learning and LSTM-Based Deep Learning Models. ArXiv.Org. https://arxiv.org/abs/2009.10819
